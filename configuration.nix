@@ -27,6 +27,7 @@
       };
     };
     defaultGateway = "192.168.0.1";
+    nameservers = ["192.168.0.1"];
   };
 
   time.timeZone = "Europe/Sofia";
